@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "rightcliqnew",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authrightcliqnew54fb7310",
+      "Outputs.UserPoolId"
+    ]
+  }
+}

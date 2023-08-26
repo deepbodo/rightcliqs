@@ -1,0 +1,14 @@
+{
+  "resourceName": "rightcliqstorage",
+  "policyUUID": "4fcef066",
+  "bucketName": "rightcliqnew18869259f33140dd9fb222ec43a17048",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
